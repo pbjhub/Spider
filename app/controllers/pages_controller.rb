@@ -1,13 +1,7 @@
 class PagesController < ApplicationController
-  def home
+  def why
   end
 
-  def services
-  end
-
-  def us
-  end
-
-  def contact
+  def products
   end
 end

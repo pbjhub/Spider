@@ -1,0 +1,65 @@
+<%= render "layouts/navbar" %>
+
+<span class="margin-container">
+</span>
+
+<span class="whybandana">
+  
+
+<div class="whybtton" id="seg_button">Seguridad <div class="glyphicon glyphicon-menu-down" aria-hidden="true" style="float:right; margin-right:1%; margin-top:1%"></div></div>
+<div class="whybtton" id="cal_button" >Calidad <div class="glyphicon glyphicon-menu-down" aria-hidden="true" style="float:right; margin-right:1%; margin-top:1%"></div></div>
+<div class="whybtton" id="ec_button" >Economía <div class="glyphicon glyphicon-menu-down" aria-hidden="true" style="float:right; margin-right:1%; margin-top:1%"></div></div>
+
+  <div class="whycontainer">
+
+    <div class="whyimg"> 
+      <img class="imgseg" src="http://www.servylimp.es/img/w854_h498_c0-0-854-498/trabajos-en-altura.jpg" style="width:100%;height:100%;"/>
+      <img class="imgcal" src="https://cdn.shutterstock.com/shutterstock/videos/3478175/thumb/1.jpg" style="width:100%;height:100%;display:none"/>
+      <img class="imgec" src="http://www.cursosaempresas.es/wp-content/uploads/2015/02/altura.jpg" style="width:100%;height:100%;display:none"/>
+    </div>
+    <div class="whypd"> 
+       <p id="whyps" class="whyp"><span class="redbone">Seguridad.</span> Somos una empresa consiente de los riesgos existentes en este rubro, por lo cual todas las adecuaciones de seguridad y anclajes específicos de cada proceso son diseñados e implementados por un especialista certificado que garantiza la seguridad y eficiencia de los trabajos.
+
+       Todos nuestros elementos cuentan con capacitación en técnicas verticales para desempeñar su labor solucionando cualquier eventualidad y utilizando equipo de seguridad especializado para trabajos en altura que reducen la probabilidad de accidentes.</p>
+
+       <p id="whypc" class="whyp"><span class="redbone">Calidad.</span> Además de ofrecer máxima seguridad, garantizamos la calidad de nuestros trabajos, las técnicas que empleamos denominadas como Rope Access permiten el recorte sustancial del tiempo en el cual realizamos nuestros trabajos ya que esto evita la instalación de sistemas más tardados como grúas, andamios, hamacas etc. esto permite realizar el trabajo de una manera más versátil ya que podemos accesar a lugares reducidos, en Spider Solutions nuestros especialidad son las alturas y nuestro fuerte es ser profesionales.</p>
+
+       <p id="whype" class="whyp"><span class="redbone">Economía.</span> Sabemos que su edificio es un activo muy importante, y como cualquier obra requiere constante revisión, el mantenimiento preventivo y correctivo, así como la revisión periódica garantiza la prevención de imprevistos como gastos o daños en su edificación, siendo la opción más económica a largo plazo.
+
+       Contamos con pólizas de mantenimiento que adaptaremos a sus necesidades especificas, de esta manera usted cuenta con un soporte de mantenimiento especializado durante todo el año evitando los grandes desembolsos.</p>
+    </div>
+
+   </div>
+  
+</span>
+
+<script>
+  $( document ).ready(function() {
+      $('#seg_button').click(function(){
+        $('.imgec').hide();
+        $('.imgcal').hide();
+        $('.imgseg').fadeIn();
+        $('#whype').hide();
+        $('#whypc').hide();
+        $('#whyps').fadeIn();
+        });
+      $('#cal_button').click(function(){
+        $('.imgseg').hide();
+        $('.imgec').hide();
+        $('.imgcal').fadeIn();
+        $('#whype').hide();
+        $('#whyps').hide();
+        $('#whypc').fadeIn();
+        });
+      $('#ec_button').click(function(){
+        $('.imgseg').hide();
+        $('.imgcal').hide();
+        $('.imgec').fadeIn();
+        $('#whyps').hide();
+        $('#whypc').hide();
+        $('#whype').fadeIn();
+        });
+    });
+</script>
+
+<%= render "layouts/footer" %>
