@@ -627,7 +627,7 @@
   position: relative;
   float:left;
   display:inline;
-   width:12%;
+   width:11%;
    height:100%;
    margin-bottom:0;
    margin-left:1%;
@@ -640,18 +640,53 @@
    width:17%;
    height:100%;
    margin-bottom:0;
-   margin-left:1%;
+   margin-left:.5%;
 }
-.usimgm{
+
+.usimgm1{
   box-sizing: border-box;
   position: relative;
   float:left;
   display:inline;
-   width:10%;
+   width:11%;
    height:100%;
    margin-bottom:0;
-   margin-left:1%;
+   margin-left:.5%;
 }
+
+.usimgm2{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:11%;
+   height:100%;
+   margin-bottom:0;
+   margin-left:.5%; 
+}
+
+.usimgm3{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:11%;
+   height:100%;
+   margin-bottom:0;
+   margin-left:.5%;
+}
+
+.usimgm4{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:11%;
+   height:100%;
+   margin-bottom:0;
+   margin-left:.5%;
+}
+
 
  .medbandana{
    box-sizing: border-box;
@@ -1186,15 +1221,51 @@ input[type=submit]:hover {
    margin-bottom:0;
    margin-left:1%;
 }
-.usimgm{
+.usimgm1{
   box-sizing: border-box;
   position: relative;
   float:left;
   display:inline;
-   width:18%;
-   height:60%;
+   width:10%;
+   height:100%;
    margin-bottom:0;
-   margin-left:1%;
+   margin-left:4%;
+}
+
+.usimgm2{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:12%;
+   height:100%;
+   margin-bottom:0;
+   margin-left:1%; 
+   margin-top:2%
+}
+
+.usimgm3{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:12%;
+   height:100%;
+   margin-bottom:0;
+   margin-left:9%;
+   margin-top:2%
+}
+
+.usimgm4{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:12%;
+   height:100%;
+   margin-bottom:0;
+   margin-left:8%;
+   margin-top:2%;
 }
 
   .ush{
