@@ -558,7 +558,7 @@
    float:left;
    display:inline;
    width:100%;
-   height:90%;
+   height:50em;
    color:white;
    text-align:center;
  }
@@ -693,7 +693,7 @@
    float:left;
    display:inline;
    width:100%;
-   height:60%;
+   height:50%;
    text-align:center;
    background-color:grey;
  }
@@ -962,7 +962,7 @@ input[type=submit]:hover {
    float:left;
    display:inline;
    width:100%;
-   height:55%;
+   height:45%;
    background-color:white;
    overflow: hidden;
    word-wrap: break-word;
@@ -1546,6 +1546,7 @@ input[type=submit] {
   margin-top:-5%;
 }
 }
+
 
 @media (max-width: 1800px) and (min-width: 1700px){
 
