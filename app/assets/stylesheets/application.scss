@@ -1547,8 +1547,9 @@ input[type=submit] {
 }
 }
 
-@media (max-width: 1600px) and (min-width: 1500){
-.thumbholder{
+@media (max-width: 1600px) and (min-width: 1300){
+
+ .thumbholder{
   box-sizing:border-box;
   display:inline-block;
   width:85%;
