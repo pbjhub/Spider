@@ -16,7 +16,7 @@
   font-size:2em;
   padding:1.1%;
   border-radius: 25px;
-  margin-top:-5%;
+  margin-top:-2.5%;
   margin-right:30%;
   text-align:center;
 }
@@ -130,23 +130,6 @@
   font-family: 'Ruda', sans-serif;
 }
 
-
-.imgser{
-  box-sizing:border-box;
-  display:inline-block;
-  float:right;
-  overflow:hidden;
-  -moz-transform: scaleX(-1);
- -o-transform: scaleX(-1);
- -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
- -ms-filter: "FlipH";
-  width:40%;
-  margin-right:-15%;
-  margin-top:7%;
-  display:none;
-}
 
 .pp{
   color: grey;
