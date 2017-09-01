@@ -8,15 +8,16 @@
   display:inline-block;
   float:left;
   width:14%;
-  height: 12%;
+  height:12%;
   background-color:#c0392b;
+  display:none;
   color:white;
   font-family: 'Ruda', sans-serif;
   font-size:2em;
   padding:1.1%;
   border-radius: 25px;
   margin-top:80%;
-  margin-right:25%;
+  margin-right:30%;
   text-align:center;
 }
 
@@ -199,6 +200,7 @@
   margin-left:.5%;
   margin-top:1.2%;
   margin-bottom:5%;
+  display:none;
 }
 
 .lists{
@@ -250,7 +252,7 @@
    float:left;
    display:inline;
    width:100%;
-   height:%;
+   height:80%;
    background-color:grey;
    padding:2%;
    padding-right:0;
@@ -978,7 +980,7 @@ input[type=submit]:hover {
   display:inline-block;
   float:right;
   width:25%;
-  height: 12%;
+  height:12%;
   background-color:#c0392b;
   display:none;
   color:white;
