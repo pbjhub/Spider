@@ -903,6 +903,15 @@ input[type=submit]:hover {
 
 @media (max-width: 767px){
 
+.thumbholder{
+  box-sizing:border-box;
+  display:inline-block;
+  width:85%;
+  height:10%;
+  background-color:rgba(255,153,0,0.8);
+  margin:auto;
+}
+
 .uswbandana{
    box-sizing: border-box;
    float:left;
