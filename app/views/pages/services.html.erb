@@ -1,12 +1,20 @@
-<%= render "layouts/navbar" %>
+<%= render "layouts/navbar" %>\
+
 <span class="margin-container">
 </span>
 
- <div class="serbut">
+<div class="serbut">
      <p class="sph">Servicios</p>
 </div>
+
+<div class="probut">
+     <p class="sph">Productos</p>
+</div>
+
 <div class="servsdn">
-<p class="servh">Servicios</p>
+
+    <article class="servHeader">
+     <p class="servh">Servicios</p>
      <p class="servh2" style="margin-right:1%;" >Telecomunicaciones</p>
      <p class="servh2" >Construcción</p>
      <p class="servh2" >Obras Públicas</p>
@@ -14,8 +22,10 @@
      <p class="servh2" >Consultoría</p>
      <p class="servh2" >Industria</p>
      <p class="servh2" >Taludes</p>
+    </article>
 
-     <ul class="listse">
+    <article class="listArea">
+      <ul class="listse">
         <li>Consultoria y auditoria durante construcción para la reducción de vicios ocultos</li>
       <li>Limpieza de fachadas y final de obra</li>
       <li>Inspección de fachadas,diagnostico y reporte de fallas</li>
@@ -32,9 +42,7 @@
       <li>Capacitación y formación para trabajos verticales</li>
       <li>Instalaciones electricas, iluminación, cableado etc.</li>
       <li>Instalacion de lineas de vida</li>
-     </ul>
-     <ul class="listsse">
-        <li>Impermeabilización y sellado</li>
+      <li>Impermeabilización y sellado</li>
       <li>Instalación de antenas de telecomunicaciones</li>
       <li>Mantenimiento y revisión de antenas</li>
       <li>Reparación de dificil acceso en antenas</li>
@@ -46,29 +54,54 @@
       <li>Refuerzos estructurales</li>
       <li>Enfoscados</li>
      </ul>
-      <div class="proret"><p>Ir a productos</p></div>
+
+    </article>
+
+    <aside class="buttonArea">
+    <img src="http://metropolita.es/wp-content/uploads/2015/07/Trabajos-Verticales-Metropolita.png" class="bi2" > 
+    <img src="http://trabajos-verticales-barcelona.eu/wp-content/uploads/2016/07/trabajos-verticales2.jpg"  class="bi1">
+    <img src="http://enerpalformacion.com/wp-content/uploads/2014/09/cursos_trabajos_verticales-940x460.jpg" class="bi3">
+
+    <div class="proret"><p>Ir a productos</p> </div>
+
+
+    </aside>
+
+
 </div>
 
- <div class="probut"> <p class="sph">Productos</p> </div>
-   <div class="servpdn">
-   <p class="servhp">Productos</p>
+<div class="servpdn">
+   <article class="proHeader">
+     <span class="servhp">Productos</span>
      <p class="servh2p" >Sistemas Limpiafachadas</p>
      <p class="servh2p">Lineas de vida</p>
      <p class="servh2p">Estructuras</p>
+   </article>
 
+   
 
-     <p class="prop" >En Spider Solutions contamos con nuestro taller de manufactura y fabricación, esto nos permite ofrecer no solo servicios, sino productos fabricados para las necesidad particulares de cada cliente, somos la unica empresa en México que ofrece Sistemas Limpiafachadas™, estos sistemas facilitan y agilizan la limpieza, revisión y correció de cualquier tipo de fachada.</p>
+   <aside class="proImg">
+
+      <p class="prop" >En Spider Solutions contamos con nuestro taller de manufactura y fabricación, esto nos permite ofrecer no solo servicios, sino productos fabricados para las necesidad particulares de cada cliente, somos la unica empresa en México que ofrece Sistemas Limpiafachadas™, estos sistemas facilitan y agilizan la limpieza, revisión y correció de cualquier tipo de fachada.</p>
 
      <p class="propo">Nuestro equipo de ingenieros y diseñadores de planta trabajaran mano a mano con usted en la construcción de su edificio para diseñar, fabricar e instalar un Sistemas Limpiafachadas™ a su medida, la instalación del sistema no implica el uso de andamios, por lo cual sigue siendo una opción económica con su capital y con su tiempo. </p>
 
-     <img  class="imgprop2" src="http://www.meridianovertical.es/images/epis.jpg">
-
      <p class="propo" style="margin-top:1%;">En nuestro taller también diseñamos y construimos estructuras de acero para distintos usos (fachadas, piezas, aditamentos, lineas de vida etc), los propositos de estas estructuras varian para cada cliente, al igual que los Sistemas Limpiafachadas™, el servicio de elaboración de estructuras incluye el diseño, fabricación e instalación de estos, ya sea en lugar de dificiles accesos o donde el cliente lo requiera.</p>
 
+     <p class="propo">En Spider Solutions desarrollamos constantemente nuevos productos y creemos que cada cliente requiere soluciones particulares y a la medida, <a class="pp"  href="<%= pages_contact_path %>"> contactanos</a> para discutir tu idea o necesidad!</p>
+
+
+   </aside>
+
+     <article class="proText"> 
+
+     <img  class="imgprop2" src="http://www.meridianovertical.es/images/epis.jpg">
      <div class="serret"><p>Ir a servicios</p></div>
 
-      <p class="propo">En Spider Solutions desarrollamos constantemente nuevos productos y creemos que cada cliente requiere soluciones particulares y a la medida, <a class="pp"  href="<%= pages_contact_path %>"> contactanos</a> para discutir tu idea o necesidad!</p>
+   </article>
 </div>
+
+ 
 
 <script>
   $( document ).ready(function() {

@@ -4,11 +4,11 @@
 @import 'bootstrap/theme';
 
 .proret{
+  text-align:center;
+  display: table;
   box-sizing:border-box;
-  display:inline-block;
-  float:left;
-  width:20%;
-  height:12%;
+  width:60%;
+  height:8%;
   background-color:#c0392b;
   display:none;
   color:white;
@@ -16,26 +16,24 @@
   font-size:2em;
   padding:1.1%;
   border-radius: 25px;
-  margin-top:2%;
-  margin-right:5%;
+  margin:8% auto;
   text-align:center;
+  padding:2.5%;
 }
 
+
 .serret{
-  box-sizing:border-box;
-  display:inline-block;
-  float:right;
-  width:15%;
-  height: 13%;
+  display: inline-block;
+  margin: 5% auto;
+  width:30%;
+  height: 15%;
   background-color:grey;
   display:none;
   color:white;
   font-family: 'Ruda', sans-serif;
   font-size:2em;
-  padding:1.2%;
+  padding:20px;
   border-radius: 25px;
-  margin-top:1%;
-  margin-left:1%;
   text-align:center;
 }
 
@@ -55,11 +53,23 @@
 }
 
 .sph{
-  margin-top:35%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.servHeader{
+  width:100%;
+  height: 10%;
+  display:inline-block;
+  margin:0 auto;
+  padding:3%;
+  text-align:center;
+  box-sizing:border-box;
 }
 .serbut{
+  text-align:center;
+  display: table;
   box-sizing:border-box;
-  display:inline-block;
   float:left;
   width:45%;
   height: 70%;
@@ -67,15 +77,14 @@
   margin-left:3.33%;
   margin-top:3.33%;
   margin-bottom:3.33%;
-  text-align:center;
   color:white;
   font-size: 4em;
   font-family: 'Ruda', sans-serif;
 }
 
 .probut{
-  box-sizing:border-box;
-  display:inline-block;
+  text-align:center;
+  display: table;
   float:left;
   width:45%;
   height: 70%;
@@ -140,28 +149,12 @@
 
 
 .imgprop2{
-  box-sizing:border-box;
-  width:45%;
-  height:50%;
-  margin-top:1%;
-  display:inline;
-  float:right;
-  margin-left:2%;
-  display:none;
+  max-width:100%;
+  height:auto;
+  margin:5% auto;
 }
 
-.propo{
-   color:white;
-   font-size:1.5em;
-   margin-top:1%;
-   display:none;
-}
-.prop{
-   color:white;
-   font-size:1.5em;
-   margin-top:7%;
-   display:none;
-}
+
 
 .servh{
   color:white;
@@ -170,20 +163,55 @@
   display:inline-block;
   float:left;
   margin-right:3%;
-  display:none;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.servh2{
-  color:black;
-  font-family: 'Ruda', sans-serif;
-  font-size:1.8em;
+
+
+.listArea{
+  padding-top:3%;
+  width:70%;
+  height:90%;
   display:inline-block;
-  float:left;
-  margin-left:.5%;
-  margin-top:1.2%;
-  margin-bottom:5%;
-  display:none;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+  /* background-color: pink; */
 }
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:110%;
+   background-color:grey;
+   display:none;
+}
+
+.buttonArea{
+  width:30%;
+  height:90%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+  /* background-color: green; */
+}
+
+.buttonArea img{
+  max-width:100%;
+  height:auto;
+}
+
+.bi2{
+  margin-top:8%;
+}
+
 
 .lists{
   box-sizing:border-box;
@@ -193,6 +221,17 @@
   color:white;
   font-size:1.5em;
   font-family: 'Ruda', sans-serif;
+}
+
+.servh2{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:2em;
+  display:inline-block;
+  float:left;
+  margin-left:1%;
+  margin-top:1.2%;
+  display: table-cell;
 }
 
 .listse{
@@ -234,10 +273,8 @@
    float:left;
    display:inline;
    width:100%;
-   height:90%;
+   height:110%;
    background-color:grey;
-   padding:2%;
-   padding-right:0;
    display:none;
 }
 
@@ -254,20 +291,18 @@
    float:left;
    display:inline;
    width:100%;
-   height:90%;
+   height:70%;
    background-color:#c0392b;
-   padding:2%;
    display:none;
 }
 
 .servhp{
   color:white;
   font-family: 'Ruda', sans-serif;
-  font-size:4em;
+  font-size:3.5em;
   display:inline-block;
   float:left;
-  margin-right:20%;
-   display:none;
+  display:none;
 }
 
 .servh2p{
@@ -276,12 +311,42 @@
   font-size:2em;
   display:inline-block;
   float:left;
-  margin-right:5%;
-  margin-top:1.2%;
-  margin-bottom:2%;
   display:none;
+  margin: 1.5% 0% 0% 4%
 }
 
+.propo{
+   color:white;
+   font-size:1.5em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:1.4em;
+   display:none;
+}
+
+.proHeader{
+  width:100%;
+  height: 15%;
+  padding:1%;
+}
+
+.proImg{
+  height:85%;
+  width:55%;
+  float:left;
+  padding: .5% 2% .5% 2%;
+  margin:none;
+}
+
+.proText{
+  height:85%;
+  width:45%;
+  float:left;
+  margin:none;
+}
 .footer{
    box-sizing: border-box;
    position: relative;
@@ -290,7 +355,7 @@
    width:100%;
    height:23.9vw;
    background-color:white;
-   overflow: hidden;
+   overflow: auto;
    word-wrap: break-word;
 }
 
@@ -351,7 +416,7 @@
   height:15%;
   width:100%;
   box-sizing:border-box;
-  display:inline;
+  display:inline-block;
   float:left;
 }
 
@@ -410,7 +475,7 @@
 
 .imgthumbtel{
   font-family: 'Ruda', sans-serif;
-  font-size: 3.6em;
+  font-size: 3.5em;
   margin-top:1%;
   color:black;
 }
@@ -454,7 +519,7 @@
   box-sizing:border-box;
   display:inline-block;
   float:left;
-  height:100%;
+  height:80%;
   padding:1.5%;
   overflow:auto;
 }
@@ -477,7 +542,7 @@
 
 .whyimg{
   width:40%;
-  height:100%;
+  height:80%;
   position:relative;
   box-sizing:border-box;
   display:inline-block;
@@ -489,17 +554,29 @@
   height:14%;
   background-color:white;
   box-sizing:border-box;
-  display:inline-block;
   float:left;
   margin-right:5%;
   margin-top:-3%;
   margin-bottom:2%;
-  padding:.5%;
-  text-align:left;
   font-family: 'Ruda', sans-serif;
   font-weight:bold;
   font-size: 2em;
   color:grey;
+  text-align:center;
+  display: table;
+  padding-right:5px;
+  padding-left:5px;
+  border-radius: 5%;
+}
+
+.whybtton span{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.whybtton:hover{
+  background-color:#c0392b;
+  color:white;
 }
 
 
@@ -566,6 +643,7 @@
    text-align:left;
    background-color:grey;
    padding:2%;
+   overflow: auto;
  }
 
 .ush{
@@ -690,6 +768,7 @@
    background-color:white;
    padding-left:5%;
    padding-top:2%;
+   padding-bottom:1%;
  }
 
  .contacth{
@@ -889,9 +968,9 @@ input[type=submit]:hover {
   box-shadow: none;
 }
 
-@media (min-width: 767px){
+@media (min-width: 1251px){
   #logo{
-   width:9vw;
+   width:10%;
    height:80%;
    z-index:1000;
    position: absolute;
@@ -899,15 +978,322 @@ input[type=submit]:hover {
   }  
 }
 
+@media only screen and (min-width: 1050px) and (max-width: 1250px){
+   #logo{
+   width:15%;
+   height:80%;
+   z-index:1000;
+   position: absolute;
+   padding:0;
+  } 
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1049px){
+   #logo{
+   width:13%;
+   height:80%;
+   z-index:1000;
+   position: absolute;
+   padding:0;
+  } 
 
 
-@media (max-width: 767px){
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 799px){
+   #logo{
+   width:10%;
+   height:80%;
+   z-index:1000;
+   position: absolute;
+   padding:0;
+  } 
+
+}
+
+
+@media only screen and (min-width: 150px) and (max-width: 360px){
+
+ .imgthumbtel{
+  font-family: 'Ruda', sans-serif;
+  font-size: 1.3em !important;
+  margin-top:4%;
+  color:black;
+}
+
+.imgthumbcon{
+  font-family: 'Ruda', sans-serif;
+  font-size: 1.3em !important;
+  color:black;
+  margin-top:4%;
+}
+
+.box3{
+  box-sizing: border-box;
+  display:inline;
+  float:left;
+  height:70% !important;
+  width:100%;
+  position:relative;
+  margin-bottom: 5%;
+}
+
+}
+
+@media only screen and (min-width: 361px) and (max-width: 600px){
+
+ .box3{
+  box-sizing: border-box;
+  display:inline;
+  float:left;
+  height:80% !important;
+  width:100%;
+  position:relative;
+  margin-bottom: 5%;
+
+   .imgthumbcon{
+  font-family: 'Ruda', sans-serif;
+  font-size: 1.8em;
+  color:black;
+  margin-top:3%;
+}
+
+.imgthumbind{
+  font-family: 'Ruda', sans-serif;
+  font-size: 1.8em;
+  color:black;
+  margin-top:3%;
+}
 
 .thumbholder{
   box-sizing:border-box;
   display:inline-block;
-  width:85%;
-  height:10%;
+  width:70%;
+  height:12%;
+  background-color:rgba(255,153,0,0.8);
+  margin:auto;
+}
+
+.imgthumbtel{
+  font-family: 'Ruda', sans-serif;
+  font-size: 1.4em;
+  margin-top:3%;
+  color:black;
+}
+
+.bandana{
+   box-sizing: border-box;
+   float:left;
+   display:inline;
+   width:100%;
+   height:50%;
+   color:white;
+   text-align:center;
+ }
+}
+}
+
+
+
+@media (max-width: 767px){
+
+.medbandanawhite{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:20%;
+   background-color:white;
+   padding-left:5%;
+   padding-top:2%;
+   padding-bottom:1%;
+ }
+
+.servpdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:90%;
+   background-color:#c0392b;
+   padding:2%;
+   overflow:auto;
+   display:none;
+}
+
+.proHeader{
+  width:100%;
+  height: 10%;
+  padding:1%;
+}
+
+.proImg{
+  height:50%;
+  width:100%;
+  float:left;
+  padding: .5% 2% .5% 2%;
+}
+
+.proText{
+  height:40%;
+  width:100%;
+  float:left;
+}
+
+.serret{
+  box-sizing:border-box;
+  display:inline-block;
+  float:right;
+  width:30%;
+  height: 15%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.3em;
+  padding:1.2%;
+  border-radius: 5px;
+  margin-top:1%;
+  margin-left:1%;
+  text-align:center;
+}
+
+.servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2em;
+  display:inline-block;
+  float:left;
+  margin-right:32%;
+  display:none;
+  margin:none;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  display:inline-block;
+  float:left;
+  margin-right:5%;
+  margin-top:1.2%;
+  display:none !important;
+}
+
+.propo{
+   color:white;
+   font-size:1em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:1em;
+   display:none;
+}
+
+.proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:30%;
+  height:30%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:2%;
+  text-align:center;
+  margin:0 auto;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:0%;
+  color:white;
+  font-size:1em;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+ .buttonArea img{
+  display: none;
+ }
+
+ .listArea{
+  padding-top:3%;
+  width:100%;
+  height:80%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+  /* background-color: pink; */
+}
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:100%;
+   background-color:grey;
+   display:none;
+}
+
+.buttonArea{
+  width:100%;
+  height:20%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+  /* background-color: green; */
+}
+.box3{
+  box-sizing: border-box;
+  display:inline;
+  float:left;
+  height:95%;
+  width:100%;
+  position:relative;
+  margin-bottom: 11%;
+}
+
+.background-container{
+ position:relative;
+ box-sizing:border-box;
+ width:100%;
+ height:40%;
+ background-image:url("ropeRED.jpg");
+ background-size:cover;
+ -moz-transform: scaleX(-1);
+ -o-transform: scaleX(-1);
+ -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+ -ms-filter: "FlipH";
+ display:inline;
+ float:left;
+ z-index:-10;
+}
+
+.thumbholder{
+  box-sizing:border-box;
+  display:inline-block;
+  width:70%;
+  height:15%;
   background-color:rgba(255,153,0,0.8);
   margin:auto;
 }
@@ -940,12 +1326,34 @@ input[type=submit]:hover {
    box-sizing: border-box;
    position: relative;
    float:left;
-   display:inline;
+   display:inline-block;
    width:100%;
-   height:60%;
+   margin-top:160%;
+   height:40% !important;
    text-align:center;
    background-color:grey;
  }
+
+ .medbp{
+  font-size:1.2em !important;
+  text-align: left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+}
+
+
+.medbhead{
+  box-sizing: border-box;
+  margin-top:2vw;
+  margin-left:2vw;
+  text-align:left;
+  font-size:2em !important;
+  display:inline;
+  float:left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  clear:right;
+}
 
 .footer{
    box-sizing: border-box;
@@ -955,7 +1363,7 @@ input[type=submit]:hover {
    width:100%;
    height:45%;
    background-color:white;
-   overflow: hidden;
+   overflow: auto;
    word-wrap: break-word;
 }
 
@@ -966,67 +1374,34 @@ input[type=submit]:hover {
   font-size:.8em;
 }
 
-.proret{
-  box-sizing:border-box;
-  display:inline-block;
-  float:right;
-  width:25%;
-  height:12%;
-  background-color:#c0392b;
-  display:none;
-  color:white;
-  font-family: 'Ruda', sans-serif;
-  font-size:1em;
-  padding:1.1%;
-  border-radius: 5px;
-  margin-right:2%;
-  text-align:center;
-}
 
-
-.serret{
-  box-sizing:border-box;
-  display:inline-block;
-  float:right;
-  width:25%;
-  height: 9%;
-  background-color:grey;
-  display:none;
-  color:white;
-  font-family: 'Ruda', sans-serif;
-  font-size:1em;
-  padding:1.2%;
-  border-radius: 5px;
-  margin-top:1%;
-  margin-left:1%;
-  text-align:center;
-}
 
 .sph{
-  margin-top:50%;
+  display: table-cell;
+  vertical-align: middle;
 }
 .serbut{
+  text-align:center;
+  display: table;
   box-sizing:border-box;
-  display:inline-block;
   float:left;
   width:45%;
-  height: 40%;
+  height: 50%;
   background-color:grey;
   margin-left:3.33%;
   margin-top:3.33%;
   margin-bottom:3.33%;
-  text-align:center;
   color:white;
-  font-size: 2em;
+  font-size: 4em;
   font-family: 'Ruda', sans-serif;
 }
 
 .probut{
-  box-sizing:border-box;
-  display:inline-block;
+  text-align:center;
+  display: table;
   float:left;
   width:45%;
-  height: 40%;
+  height: 50%;
   background-color:#c0392b;
   margin-left:3.33%;
   margin-top:3.33%;
@@ -1034,68 +1409,23 @@ input[type=submit]:hover {
   margin-right:3.33%;
   text-align:center;
   color:white;
-  font-size:2em;
+  font-size:4em;
   font-family: 'Ruda', sans-serif;
 }
 
 
-.servpdn{
-  box-sizing: border-box;
-   position: relative;
-   float:left;
-   display:inline;
-   width:100%;
-   height:110%;
-   background-color:#c0392b;
-   padding:2%;
-   overflow:auto;
-   display:none;
-}
 
-.servhp{
-  color:white;
-  font-family: 'Ruda', sans-serif;
-  font-size:2em;
-  display:inline-block;
-  float:left;
-  margin-right:32%;
-  display:none;
-}
 
-.servh2p{
-  color:black;
-  font-family: 'Ruda', sans-serif;
-  font-size:1em;
-  display:inline-block;
-  float:left;
-  margin-right:5%;
-  margin-top:1.2%;
-  display:none;
-}
+.servh2{
+ display:none !important;
+ }
+
+
 
 .imgprop2{
-  box-sizing:border-box;
-  width:100%;
-  height:20%;
-  margin-top:1%;
-  margin-bottom:2%;
-  display:inline;
-  float:right;
-  margin-left:2%;
-  display:none;
-}
-
-.propo{
-   color:white;
-   font-size:.8em;
-   margin-top:1%;
-   display:none;
-}
-.prop{
-   color:white;
-   font-size:.8em;
-   margin-top:39%;
-   display:none;
+  max-width: 100%;
+  height: auto;
+  margin: 5% auto;
 }
 
 .servsdn{
@@ -1144,7 +1474,6 @@ input[type=submit]:hover {
   display:inline-block;
   float:left;
   margin-left:2%;
-  margin-bottom:5%;
   display:none;
 }
 
@@ -1158,16 +1487,7 @@ input[type=submit]:hover {
   font-family: 'Ruda', sans-serif;
 }
 
-.listse{
-  box-sizing:border-box;
-  display:inline-block;
-  float:left;
-  margin-top:0%;
-  color:white;
-  font-size:.8em;
-  font-family: 'Ruda', sans-serif;
-  display:none;
-}
+
 
 .listsse{
   box-sizing:border-box;
@@ -1266,7 +1586,8 @@ input[type=submit]:hover {
 .usp{
   color:white;
   font-family: 'Playfair Display', serif;
-  font-size:.8em;
+  font-size:1.3em;
+  /* aqui me quede alvvvvvvvvvvvv*/
 }
 
 .ush2{
@@ -1278,28 +1599,10 @@ input[type=submit]:hover {
 .usp2{
   color:black;
   font-family: 'Playfair Display', serif;
-  font-size:.8em;
+  font-size:1.2em;
 }
 
-  .whybtton{
-  width:25%;
-  height:26%;
-  background-color:white;
-  box-sizing:border-box;
-  display:inline-block;
-  float:left;
-  margin-left:3.3%;
-  margin-right:5%;
-  margin-top:-3%;
-  margin-bottom:5%;
-  padding:.5%;
-  padding-top:1.5%;
-  text-align:left;
-  font-family: 'Ruda', sans-serif;
-  font-weight:bold;
-  font-size: 1em;
-  color:grey;
-}
+  
 
   .whycontainer{
   box-sizing:border-box;
@@ -1316,7 +1619,7 @@ input[type=submit]:hover {
    float:left;
    display:inline;
    width:100%;
-   height:50%;
+   height:40%;
    text-align:center;
    background-color:grey;
    padding-top:8%;
@@ -1324,6 +1627,58 @@ input[type=submit]:hover {
    padding-right:0;
    padding-bottom:26%;
  }
+
+.whyimg{
+  width:40%;
+  height:110%;
+  position:relative;
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:5%;
+}
+
+.whypd{
+  background-color:white;
+  width:60%;
+  position:relative;
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  height:110%;
+  padding:1.5%;
+  overflow:auto;
+  margin-top:5%;
+}
+
+.whybtton{
+  width:15%;
+  height:14%;
+  background-color:white;
+  box-sizing:border-box;
+  float:left;
+  margin-right:5%;
+  margin-top:-3%;
+  margin-bottom:2%;
+  font-family: 'Ruda', sans-serif;
+  font-weight:bold;
+  font-size: 1em;
+  color:grey;
+  text-align:center;
+  display: table;
+  padding-right:5px;
+  padding-left:5px;
+  border-radius: 5%;
+}
+
+#seg_button{
+  margin-left:5%;
+}
+
+.whybtton span{
+  display: table-cell;
+  vertical-align: middle;
+}
 
   .whyp{
   text-align:left;
@@ -1425,11 +1780,11 @@ input[type=submit] {
   transform: scaleX(-1);
   filter: FlipH;
  -ms-filter: "FlipH";
-   font-size:10vw;
+   font-size:7vw;
    color: black;
    width:60%;
    position: absolute;
-   top: 20%;
+   top: 10%;
    right: 10%;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -1454,74 +1809,69 @@ input[type=submit] {
   }
 
   #logo{
-   width:10%;
+   width:25%;
    height:70%;
    z-index:1000;
    position: absolute;
    padding:0;
   }  
-   .medbhead{
-  box-sizing: border-box;
-  margin-top:2vw;
-  margin-left:2vw;
-  text-align:left;
-  font-size:2em;
-  display:inline;
-  float:left;
-  color:white;
-  font-family: 'Ruda', sans-serif;
-  clear:right;
- }
-  .medbp{
-  font-size:1em;
-  text-align: left;
-  color:white;
-  font-family: 'Ruda', sans-serif;
- }
+  
 
 .bandana{
    box-sizing: border-box;
    float:left;
    display:inline;
    width:100%;
-   height:52%;
+   height:60%;
    color:white;
    text-align:center;
  }
   .imgshome{
   box-sizing:border-box;
   display:inline-block;
-  width:85%;
-  height:27%;
+  display:inline;
+  width:70%;
+  height: auto;
   margin: auto;
   margin-top:10%;
  }
 
  .imgthumbcon{
   font-family: 'Ruda', sans-serif;
-  font-size: 1em;
+  font-size: 2.2em;
   color:black;
-  margin-top:4%;
+  margin-top:3%;
 }
 
 .imgthumbind{
   font-family: 'Ruda', sans-serif;
-  font-size: 1.2em;
+  font-size: 2.2em;
   color:black;
   margin-top:3%;
 }
 
 .imgthumbtel{
   font-family: 'Ruda', sans-serif;
-  font-size: .7em;
-  margin-top:6%;
+  font-size: 2.2em;
+  margin-top:3%;
   color:black;
+}
+
+.imgdescphome{
+  box-sizing:border-box;
+  width:70%;
+  height:20%;
+  margin:auto;
+  margin-bottom:2%;
+  clear:both;
+  padding:1%;
+  display:block;
 }
 
 .imgdescp{
   text-align:left;
   font-family: 'Ruda', sans-serif;
-  font-size: .65em;
+  font-size: 1em;
   color:black;
   margin-top:5%;
 }
@@ -1533,9 +1883,3587 @@ input[type=submit] {
   color:red;
   width:100%;
   font-size:2vh;
-  margin-top:-5%;
+  margin-top:2%;
+
+
 }
 }
+
+@media (max-width: 730px) and (min-width: 680px){
+  .medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:40%;
+   text-align:center;
+   background-color:grey;
+   margin-top:160%;
+ }
+
+ .proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:30%;
+  height:60%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:2%;
+  text-align:center;
+  margin:0 auto;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:0%;
+  color:white;
+  font-size: 1 !important;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+ .buttonArea img{
+  display: none;
+ }
+
+ .servh2{
+ display:none !important;
+ }
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:90%;
+   background-color:grey;
+   display:none;
+}
+
+.listArea{
+  padding-top:3%;
+  width:100%;
+  height:80%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.servHeader{
+  width:100%;
+  height: 10%;
+  display:inline-block;
+  margin:0 auto;
+  padding:3%;
+  text-align:center;
+  box-sizing:border-box;
+}
+
+.buttonArea{
+  width:100%;
+  height:10%;
+  display:inline-block;
+  float: left;
+  padding:0%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+}
+
+@media (max-width: 679px) and (min-width: 640px){
+
+   .proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:30%;
+  height:60%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:2%;
+  text-align:center;
+  margin:0 auto;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:0%;
+  color:white;
+  font-size: 1em !important;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+ .buttonArea img{
+  display: none;
+ }
+
+ .servh2{
+ display:none !important;
+ }
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:90%;
+   background-color:grey;
+   display:none;
+}
+
+.listArea{
+  padding-top:3%;
+  width:100%;
+  height:80%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.servHeader{
+  width:100%;
+  height: 10%;
+  display:inline-block;
+  margin:0 auto;
+  padding:3%;
+  text-align:center;
+  box-sizing:border-box;
+}
+
+.buttonArea{
+  width:100%;
+  height:10%;
+  display:inline-block;
+  float: left;
+  padding:0%;
+  text-align:left;
+  box-sizing:border-box;
+}
+  .medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:40%;
+   text-align:center;
+   background-color:grey;
+   margin-top:160%;
+ }
+
+}
+
+@media (max-width: 639px) and (min-width: 600px){
+
+.servpdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:85%;
+   background-color:#c0392b;
+   padding:2%;
+   overflow:auto;
+   display:none;
+}
+
+.proHeader{
+  width:100%;
+  height: 10%;
+  padding:1%;
+}
+
+.proImg{
+  height:50%;
+  width:100%;
+  float:left;
+  padding: .5% 2% .5% 2%;
+}
+
+.proText{
+  height:40%;
+  width:100%;
+  float:left;
+}
+
+.serret{
+  box-sizing:border-box;
+  display:inline-block;
+  float:right;
+  width:30%;
+  height: 15%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.3em;
+  padding:1.2%;
+  border-radius: 5px;
+  margin-top:1%;
+  margin-left:1%;
+  text-align:center;
+}
+
+.servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2em;
+  display:inline-block;
+  float:left;
+  margin-right:32%;
+  display:none;
+  margin:none !important;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  display:inline-block;
+  float:left;
+  margin-right:5%;
+  margin-top:1.2%;
+  display:none !important;
+}
+
+.propo{
+   color:white;
+   font-size:.9em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:.9em;
+   display:none;
+}
+
+    .proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:30%;
+  height:60%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:2%;
+  text-align:center;
+  margin:0 auto;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:0%;
+  color:white;
+  font-size: 1em !important;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+ .buttonArea img{
+  display: none;
+ }
+
+ .servh2{
+ display:none !important;
+ }
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:90%;
+   background-color:grey;
+   display:none;
+}
+
+.listArea{
+  padding-top:3%;
+  width:100%;
+  height:80%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.servHeader{
+  width:100%;
+  height: 10%;
+  display:inline-block;
+  margin:0 auto;
+  padding:3%;
+  text-align:center;
+  box-sizing:border-box;
+}
+
+.buttonArea{
+  width:100%;
+  height:10%;
+  display:inline-block;
+  float: left;
+  padding:0%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+  .medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:40%;
+   text-align:center;
+   background-color:grey;
+   margin-top:170%;
+ }
+
+}
+
+@media (max-width: 599px) and (min-width: 565px){
+
+.servpdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:85%;
+   background-color:#c0392b;
+   padding:2%;
+   overflow:auto;
+   display:none;
+}
+
+.proHeader{
+  width:100%;
+  height: 10%;
+  padding:1%;
+}
+
+.proImg{
+  height:50%;
+  width:100%;
+  float:left;
+  padding: .5% 2% .5% 2%;
+}
+
+.proText{
+  height:40%;
+  width:100%;
+  float:left;
+}
+
+.serret{
+  box-sizing:border-box;
+  display:inline-block;
+  float:right;
+  width:30%;
+  height: 15%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.3em;
+  padding:1.2%;
+  border-radius: 5px;
+  margin-top:1%;
+  margin-left:1%;
+  text-align:center;
+}
+
+.servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2em;
+  display:inline-block;
+  float:left;
+  margin-right:32%;
+  display:none;
+  margin:none !important;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  display:inline-block;
+  float:left;
+  margin-right:5%;
+  margin-top:1.2%;
+  display:none !important;
+}
+
+.propo{
+   color:white;
+   font-size:.87em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:.87em;
+   display:none;
+}
+
+.proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:30%;
+  height:60%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:2%;
+  text-align:center;
+  float:right;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:0%;
+  color:white;
+  font-size: 1em !important;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+ .buttonArea img{
+  display: none;
+ }
+
+ .servh2{
+ display:none !important;
+ }
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:90%;
+   background-color:grey;
+   display:none;
+}
+
+.listArea{
+  padding-top:3%;
+  width:100%;
+  height:80%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.servHeader{
+  width:100%;
+  height: 10%;
+  display:inline-block;
+  margin:0 auto;
+  padding:3%;
+  text-align:center;
+  box-sizing:border-box;
+}
+
+.buttonArea{
+  width:100%;
+  height:10%;
+  display:inline-block;
+  float: left;
+  padding:0%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+
+.sph{
+  display: table-cell;
+  vertical-align: middle;
+}
+.serbut{
+  text-align:center;
+  display: table;
+  box-sizing:border-box;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:grey;
+  margin-left:3.33%;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  color:white;
+  font-size: 4em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.probut{
+  text-align:center;
+  display: table;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:#c0392b;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  margin-right:3.33%;
+  text-align:center;
+  color:white;
+  font-size:4em;
+  font-family: 'Ruda', sans-serif;
+}
+
+  .medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:40%;
+   text-align:center;
+   background-color:grey;
+   margin-top:150%;
+ }
+
+ .thumbholder{
+  box-sizing:border-box;
+  display:inline-block;
+  width:70%;
+  height:15% !important;
+  background-color:rgba(255,153,0,0.8);
+  margin:auto;
+}
+
+
+}
+
+@media (max-width: 564px) and (min-width: 530px){
+
+.servpdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:85%;
+   background-color:#c0392b;
+   padding:2%;
+   overflow:auto;
+   display:none;
+}
+
+.proHeader{
+  width:100%;
+  height: 10%;
+  padding:1%;
+}
+
+.proImg{
+  height:60%;
+  width:100%;
+  float:left;
+  padding: .5% 2% .5% 2%;
+}
+
+.proText{
+  height:40%;
+  width:100%;
+  float:left;
+}
+
+.serret{
+  box-sizing:border-box;
+  display:inline-block;
+  float:right;
+  width:30%;
+  height: 15%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.3em;
+  padding:1.2%;
+  border-radius: 5px;
+  margin-top:1%;
+  margin-left:1%;
+  text-align:center;
+}
+
+.servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2em;
+  display:inline-block;
+  float:left;
+  margin-right:32%;
+  display:none;
+  margin:none !important;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  display:inline-block;
+  float:left;
+  margin-right:5%;
+  margin-top:1.2%;
+  display:none !important;
+}
+
+.propo{
+   color:white;
+   font-size:.84em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:.84em;
+   display:none;
+}
+
+.proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:30%;
+  height:60%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:2%;
+  text-align:center;
+  float:right;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:0%;
+  color:white;
+  font-size: 1em !important;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+ .buttonArea img{
+  display: none;
+ }
+
+ .servh2{
+ display:none !important;
+ }
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:90%;
+   background-color:grey;
+   display:none;
+}
+
+.listArea{
+  padding-top:3%;
+  width:100%;
+  height:80%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.servHeader{
+  width:100%;
+  height: 10%;
+  display:inline-block;
+  margin:0 auto;
+  padding:3%;
+  text-align:center;
+  box-sizing:border-box;
+}
+
+.buttonArea{
+  width:100%;
+  height:10%;
+  display:inline-block;
+  float: left;
+  padding:0%;
+  text-align:left;
+  box-sizing:border-box; 
+}
+
+ .sph{
+  display: table-cell;
+  vertical-align: middle;
+}
+.serbut{
+  text-align:center;
+  display: table;
+  box-sizing:border-box;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:grey;
+  margin-left:3.33%;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  color:white;
+  font-size: 2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.probut{
+  text-align:center;
+  display: table;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:#c0392b;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  margin-right:3.33%;
+  text-align:center;
+  color:white;
+  font-size:2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+
+.box3{
+  box-sizing: border-box;
+  display:inline;
+  float:left;
+  height:95%;
+  width:100%;
+  position:relative;
+  margin-bottom: 20% !important;
+}
+  
+
+ .thumbholder{
+  box-sizing:border-box;
+  display:inline-block;
+  width:70%;
+  height:15% !important;
+  background-color:rgba(255,153,0,0.8);
+  margin:auto;
+}
+
+.medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:35% !important;
+   text-align:center;
+   background-color:grey;
+   margin-top:170%;
+ }
+
+.medbp{
+  font-size:1em !important;
+  text-align: left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+}
+
+.medbhead{
+  box-sizing: border-box;
+  margin-top:2vw;
+  margin-left:2vw;
+  text-align:left;
+  font-size:1.8em !important;
+  display:inline;
+  float:left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  clear:right;
+  }
+
+}
+
+@media (max-width: 530px) and (min-width: 500px){
+
+.medbandanawhite{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:25%;
+   background-color:white;
+   padding-left:5%;
+   padding-top:2%;
+   padding-bottom:1%;
+ }
+
+.servpdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:85%;
+   background-color:#c0392b;
+   padding:2%;
+   overflow:auto;
+   display:none;
+}
+
+.proHeader{
+  width:100%;
+  height: 10%;
+  padding:1%;
+}
+
+.proImg{
+  height:60%;
+  width:100%;
+  float:left;
+  padding: .5% 2% .5% 2%;
+}
+
+.proText{
+  height:40%;
+  width:100%;
+  float:left;
+}
+
+.serret{
+  box-sizing:border-box;
+  display:inline-block;
+  float:right;
+  width:30%;
+  height: 15%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.3em;
+  padding:1.2%;
+  border-radius: 5px;
+  margin-top:1%;
+  margin-left:1%;
+  text-align:center;
+}
+
+.servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2em;
+  display:inline-block;
+  float:left;
+  margin-right:32%;
+  display:none;
+  margin:none !important;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  display:inline-block;
+  float:left;
+  margin-right:5%;
+  margin-top:1.2%;
+  display:none !important;
+}
+
+.propo{
+   color:white;
+   font-size:.85em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:.85em;
+   display:none;
+}
+
+.proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:30%;
+  height:60%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:10%;
+  text-align:center;
+  float:right;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:0%;
+  color:white;
+  font-size: .95em !important;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+ .buttonArea img{
+  display: none;
+ }
+
+ .servh2{
+ display:none !important;
+ }
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:90%;
+   background-color:grey;
+   display:none;
+}
+
+.listArea{
+  padding-top:3%;
+  width:100%;
+  height:80%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.servHeader{
+  width:100%;
+  height: 10%;
+  display:inline-block;
+  margin:0 auto;
+  padding:3%;
+  text-align:center;
+}
+
+.buttonArea{
+  width:100%;
+  height:10%;
+  display:inline-block;
+  float: left;
+  padding:0%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+ .sph{
+  display: table-cell;
+  vertical-align: middle;
+}
+.serbut{
+  text-align:center;
+  display: table;
+  box-sizing:border-box;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:grey;
+  margin-left:3.33%;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  color:white;
+  font-size: 2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.probut{
+  text-align:center;
+  display: table;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:#c0392b;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  margin-right:3.33%;
+  text-align:center;
+  color:white;
+  font-size:2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.thumbholder{
+  box-sizing:border-box;
+  display:inline-block;
+  width:70%;
+  height:15% !important;
+  background-color:rgba(255,153,0,0.8);
+  margin:auto;
+}
+
+.box3{
+  box-sizing: border-box;
+  display:inline;
+  float:left;
+  height:95%;
+  width:100%;
+  position:relative;
+  margin-bottom: 15% !important;
+}
+  .medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:40%;
+   text-align:center;
+   background-color:grey;
+   margin-top:170%;
+ }
+
+ .medbp{
+  font-size:1em !important;
+  text-align: left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+}
+
+.medbhead{
+  box-sizing: border-box;
+  margin-top:2vw;
+  margin-left:2vw;
+  text-align:left;
+  font-size:1.8em !important;
+  display:inline;
+  float:left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  clear:right;
+  }
+
+}
+
+@media (max-width: 499px) and (min-width: 465px){
+
+.medbandanawhite{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:25%;
+   background-color:white;
+   padding-left:5%;
+   padding-top:2%;
+   padding-bottom:1%;
+ }
+
+.uswbandana{
+   box-sizing: border-box;
+   float:left;
+   display:inline;
+   width:100%;
+   height:60%;
+   color:white;
+   text-align:left;
+   padding:2%;
+ }
+
+ .usimg{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:1%;
+}
+.usimgo{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:31%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:3%;
+}
+.usimgm1{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:2%;
+}
+
+.usimgm2{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:1%; 
+   margin-top:2%
+}
+
+.usimgm3{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:6%;
+   margin-top:2%
+}
+
+.usimgm4{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:6%;
+   margin-top:2%;
+}
+
+.servpdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:85%;
+   background-color:#c0392b;
+   padding:2%;
+   overflow:auto;
+   display:none;
+}
+
+.proHeader{
+  width:100%;
+  height: 10%;
+  padding:1%;
+}
+
+.proImg{
+  height:60%;
+  width:100%;
+  float:left;
+  padding: .5% 2% .5% 2%;
+}
+
+.proText{
+  height:40%;
+  width:100%;
+  float:left;
+}
+
+.serret{
+  box-sizing:border-box;
+  display:inline-block;
+  float:right;
+  width:30%;
+  height: 15%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.3em;
+  padding:1.2%;
+  border-radius: 5px;
+  margin-top:1%;
+  margin-left:1%;
+  text-align:center;
+}
+
+.servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2em;
+  display:inline-block;
+  float:left;
+  margin-right:32%;
+  display:none;
+  margin:none !important;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  display:inline-block;
+  float:left;
+  margin-right:5%;
+  margin-top:1.2%;
+  display:none !important;
+}
+
+.propo{
+   color:white;
+   font-size:.81em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:.81em;
+   display:none;
+}
+
+.proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:30%;
+  height:60%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:10%;
+  text-align:center;
+  float:right;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:0%;
+  color:white;
+  font-size: .95em !important;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+ .buttonArea img{
+  display: none;
+ }
+
+ .servh2{
+ display:none !important;
+ }
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:90%;
+   background-color:grey;
+   display:none;
+}
+
+.listArea{
+  padding-top:3%;
+  width:100%;
+  height:80%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.servHeader{
+  width:100%;
+  height: 10%;
+  display:inline-block;
+  margin:0 auto;
+  padding:3%;
+  text-align:center;
+}
+
+.buttonArea{
+  width:100%;
+  height:10%;
+  display:inline-block;
+  float: left;
+  padding:0%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+  .sph{
+  display: table-cell;
+  vertical-align: middle;
+}
+.serbut{
+  text-align:center;
+  display: table;
+  box-sizing:border-box;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:grey;
+  margin-left:3.33%;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  color:white;
+  font-size: 2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.probut{
+  text-align:center;
+  display: table;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:#c0392b;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  margin-right:3.33%;
+  text-align:center;
+  color:white;
+  font-size:2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.thumbholder{
+  box-sizing:border-box;
+  display:inline-block;
+  width:70%;
+  height:18% !important;
+  background-color:rgba(255,153,0,0.8);
+  margin:auto;
+}
+
+.box3{
+  box-sizing: border-box;
+  display:inline;
+  float:left;
+  height:95%;
+  width:100%;
+  position:relative;
+  margin-bottom: 20% !important;
+}
+  .medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:35% !important;
+   text-align:center;
+   background-color:grey;
+   margin-top:175%;
+ }
+
+ .medbp{
+  font-size:1em !important;
+  text-align: left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+}
+
+.medbhead{
+  box-sizing: border-box;
+  margin-top:2vw;
+  margin-left:2vw;
+  text-align:left;
+  font-size:1.8em !important;
+  display:inline;
+  float:left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  clear:right;
+  }
+
+}
+
+@media (max-width: 465px) and (min-width: 435px){
+
+.medbandanawhite{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:25%;
+   background-color:white;
+   padding-left:5%;
+   padding-top:2%;
+   padding-bottom:1%;
+ }
+
+.uswbandana{
+   box-sizing: border-box;
+   float:left;
+   display:inline;
+   width:100%;
+   height:60%;
+   color:white;
+   text-align:left;
+   padding:2%;
+ }
+
+ .usimg{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:1%;
+}
+.usimgo{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:31%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:3%;
+}
+.usimgm1{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:2%;
+}
+
+.usimgm2{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:1%; 
+   margin-top:2%
+}
+
+.usimgm3{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:6%;
+   margin-top:2%
+}
+
+.usimgm4{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:6%;
+   margin-top:2%;
+}
+
+.proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:30%;
+  height:60%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:10%;
+  text-align:center;
+  float:right;
+}
+
+.servpdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:85%;
+   background-color:#c0392b;
+   padding:2%;
+   overflow:auto;
+   display:none;
+}
+
+.proHeader{
+  width:100%;
+  height: 10%;
+  padding:1%;
+}
+
+.proImg{
+  height:70%;
+  width:100%;
+  float:left;
+  padding: .5% 2% .5% 2%;
+}
+
+.proText{
+  height:30%;
+  width:100%;
+  float:left;
+}
+
+.serret{
+  box-sizing:border-box;
+  display:inline-block;
+  float:right;
+  width:30%;
+  height: 20%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.2%;
+  border-radius: 5px;
+  margin-top:1%;
+  margin-left:1%;
+  text-align:center;
+}
+
+.servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2em;
+  display:inline-block;
+  float:left;
+  margin-right:32%;
+  display:none;
+  margin:none !important;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  display:inline-block;
+  float:left;
+  margin-right:5%;
+  margin-top:1.2%;
+  display:none !important;
+}
+
+.propo{
+   color:white;
+   font-size:.81em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:.81em;
+   display:none;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:0%;
+  color:white;
+  font-size: .95em !important;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+ .buttonArea img{
+  display: none;
+ }
+
+ .servh2{
+ display:none !important;
+ }
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:90%;
+   background-color:grey;
+   display:none;
+}
+
+.listArea{
+  padding-top:3%;
+  width:100%;
+  height:80%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.servHeader{
+  width:100%;
+  height: 10%;
+  display:inline-block;
+  margin:0 auto;
+  padding:3%;
+  text-align:center;
+}
+
+.buttonArea{
+  width:100%;
+  height:10%;
+  display:inline-block;
+  float: left;
+  padding:0%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+  .sph{
+  display: table-cell;
+  vertical-align: middle;
+}
+.serbut{
+  text-align:center;
+  display: table;
+  box-sizing:border-box;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:grey;
+  margin-left:3.33%;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  color:white;
+  font-size: 2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.probut{
+  text-align:center;
+  display: table;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:#c0392b;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  margin-right:3.33%;
+  text-align:center;
+  color:white;
+  font-size:2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.thumbholder{
+  box-sizing:border-box;
+  display:inline-block;
+  width:70%;
+  height:18% !important;
+  background-color:rgba(255,153,0,0.8);
+  margin:auto;
+}
+
+.box3{
+  box-sizing: border-box;
+  display:inline;
+  float:left;
+  height:95%;
+  width:100%;
+  position:relative;
+  margin-bottom: 20% !important;
+}
+  .medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:40% !important;
+   text-align:center;
+   background-color:grey;
+   margin-top:180%;
+ }
+
+ .medbp{
+  font-size:1em !important;
+  text-align: left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+}
+
+.medbhead{
+  box-sizing: border-box;
+  margin-top:2vw;
+  margin-left:2vw;
+  text-align:left;
+  font-size:1.8em !important;
+  display:inline;
+  float:left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  clear:right;
+  }
+
+}
+
+@media (max-width: 435px) and (min-width: 405px){
+
+.medbandanawhite{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:25%;
+   background-color:white;
+   padding-left:5%;
+   padding-top:2%;
+   padding-bottom:1%;
+ }
+
+.uswbandana{
+   box-sizing: border-box;
+   float:left;
+   display:inline;
+   width:100%;
+   height:60%;
+   color:white;
+   text-align:left;
+   padding:2%;
+ }
+
+ .usimg{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:1%;
+}
+.usimgo{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:31%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:3%;
+}
+.usimgm1{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:2%;
+}
+
+.usimgm2{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:1%; 
+   margin-top:2%
+}
+
+.usimgm3{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:6%;
+   margin-top:2%
+}
+
+.usimgm4{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:6%;
+   margin-top:2%;
+}
+
+.proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:30%;
+  height:60%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:10%;
+  text-align:center;
+  float:right;
+}
+
+.servpdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:85%;
+   background-color:#c0392b;
+   padding:2%;
+   overflow:auto;
+   display:none;
+}
+
+.proHeader{
+  width:100%;
+  height: 10%;
+  padding:1%;
+}
+
+.proImg{
+  height:70%;
+  width:100%;
+  float:left;
+  padding: .5% 2% .5% 2%;
+}
+
+.proText{
+  height:30%;
+  width:100%;
+  float:left;
+}
+
+.serret{
+  box-sizing:border-box;
+  display:inline-block;
+  float:right;
+  width:30%;
+  height: 20%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.2%;
+  border-radius: 5px;
+  margin-top:1%;
+  margin-left:1%;
+  text-align:center;
+}
+
+.servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2em;
+  display:inline-block;
+  float:left;
+  margin-right:32%;
+  display:none;
+  margin:none !important;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  display:inline-block;
+  float:left;
+  margin-right:5%;
+  margin-top:1.2%;
+  display:none !important;
+}
+
+.propo{
+   color:white;
+   font-size:.81em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:.81em;
+   display:none;
+}
+
+.proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:30%;
+  height:60%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:.9em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:10%;
+  text-align:center;
+  float:right;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:0%;
+  color:white;
+  font-size: .95em !important;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+ .buttonArea img{
+  display: none;
+ }
+
+ .servh2{
+ display:none !important;
+ }
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:90%;
+   background-color:grey;
+   display:none;
+}
+
+.listArea{
+  padding-top:3%;
+  width:100%;
+  height:80%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.servHeader{
+  width:100%;
+  height: 10%;
+  display:inline-block;
+  margin:0 auto;
+  padding:3%;
+  text-align:center;
+}
+
+.buttonArea{
+  width:100%;
+  height:10%;
+  display:inline-block;
+  float: left;
+  padding:0%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.sph{
+  display: table-cell;
+  vertical-align: middle;
+}
+.serbut{
+  text-align:center;
+  display: table;
+  box-sizing:border-box;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:grey;
+  margin-left:3.33%;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  color:white;
+  font-size: 2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.probut{
+  text-align:center;
+  display: table;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:#c0392b;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  margin-right:3.33%;
+  text-align:center;
+  color:white;
+  font-size:2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.thumbholder{
+  box-sizing:border-box;
+  display:inline-block;
+  width:70%;
+  height:18% !important;
+  background-color:rgba(255,153,0,0.8);
+  margin:auto;
+}
+
+.box3{
+  box-sizing: border-box;
+  display:inline;
+  float:left;
+  height:95%;
+  width:100%;
+  position:relative;
+  margin-bottom: 20% !important;
+}
+
+  .medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:45% !important;
+   text-align:center;
+   background-color:grey;
+   margin-top:180% !important;
+ }
+
+ .medbp{
+  font-size:1em !important;
+  text-align: left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+}
+
+.medbhead{
+  box-sizing: border-box;
+  margin-top:2vw;
+  margin-left:2vw;
+  text-align:left;
+  font-size:1.8em !important;
+  display:inline;
+  float:left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  clear:right;
+  }
+
+  .box3{
+  box-sizing: border-box;
+  display:inline;
+  float:left;
+  height:95%;
+  width:100%;
+  position:relative;
+  margin-bottom: 15% !important;
+}
+
+.thumbholder{
+  box-sizing:border-box;
+  display:inline-block;
+  width:70%;
+  height:15% !important;
+  background-color:rgba(255,153,0,0.8);
+  margin:auto;
+}
+
+
+}
+
+@media (max-width: 404px) and (min-width: 355px){
+
+.medbandanawhite{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:25%;
+   background-color:white;
+   padding-left:5%;
+   padding-top:2%;
+   padding-bottom:1%;
+ }
+
+.uswbandana{
+   box-sizing: border-box;
+   float:left;
+   display:inline;
+   width:100%;
+   height:70%;
+   color:white;
+   text-align:left;
+   padding:2%;
+ }
+
+ .usimg{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:1%;
+}
+.usimgo{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:31%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:3%;
+}
+.usimgm1{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:2%;
+}
+
+.usimgm2{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:1%; 
+   margin-top:2%
+}
+
+.usimgm3{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:6%;
+   margin-top:2%
+}
+
+.usimgm4{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:50%;
+   margin-bottom:0;
+   margin-left:6%;
+   margin-top:2%;
+}
+ 
+
+.servpdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:90%;
+   background-color:#c0392b;
+   padding:2%;
+   overflow:auto;
+   display:none;
+}
+
+.proHeader{
+  width:100%;
+  height: 10%;
+  padding:1%;
+}
+
+.proImg{
+  height:80%;
+  width:100%;
+  float:left;
+  padding: .5% 2% .5% 2%;
+}
+
+.proText{
+  height:30%;
+  width:100%;
+  float:left;
+}
+
+.serret{
+  box-sizing:border-box;
+  display:inline-block;
+  float:right;
+  width:30%;
+  height: 20%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.2%;
+  border-radius: 5px;
+  margin-top:1%;
+  margin-left:1%;
+  text-align:center;
+}
+
+.servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2em;
+  display:inline-block;
+  float:left;
+  margin-right:32%;
+  display:none;
+  margin:none !important;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  display:inline-block;
+  float:left;
+  margin-right:5%;
+  margin-top:1.2%;
+  display:none !important;
+}
+
+.propo{
+   color:white;
+   font-size:.81em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:.81em;
+   display:none;
+}
+
+.proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:30%;
+  height:60%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:10%;
+  text-align:center;
+  float:right;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:0%;
+  color:white;
+  font-size: .85em !important;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+ .buttonArea img{
+  display: none;
+ }
+
+ .servh2{
+ display:none !important;
+ }
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:90%;
+   background-color:grey;
+   display:none;
+}
+
+.listArea{
+  padding-top:3%;
+  width:100%;
+  height:80%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.servHeader{
+  width:100%;
+  height: 10%;
+  display:inline-block;
+  margin:0 auto;
+  padding:3%;
+  text-align:center;
+}
+
+.buttonArea{
+  width:100%;
+  height:10%;
+  display:inline-block;
+  float: left;
+  padding:0%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.sph{
+  display: table-cell;
+  vertical-align: middle;
+}
+.serbut{
+  text-align:center;
+  display: table;
+  box-sizing:border-box;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:grey;
+  margin-left:3.33%;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  color:white;
+  font-size: 2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.probut{
+  text-align:center;
+  display: table;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:#c0392b;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  margin-right:3.33%;
+  text-align:center;
+  color:white;
+  font-size:2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.box3{
+  box-sizing: border-box;
+  display:inline;
+  float:left;
+  height:95%;
+  width:100%;
+  position:relative;
+  margin-bottom: 25% !important;
+}
+
+  .medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:50% !important;
+   text-align:center;
+   background-color:grey;
+   margin-top:210% !important;
+ }
+
+ .medbp{
+  font-size:1em !important;
+  text-align: left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+}
+
+.medbhead{
+  box-sizing: border-box;
+  margin-top:2vw;
+  margin-left:2vw;
+  text-align:left;
+  font-size:1.8em !important;
+  display:inline;
+  float:left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  clear:right;
+  }
+
+  .imgthumbind{
+  font-family: 'Ruda', sans-serif;
+  font-size: 1.4em !important;
+  margin-top:4%;
+  color:black;
+}
+
+}
+
+@media (max-width: 354px) and (min-width: 300px){
+
+.medbandanawhite{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:30%;
+   background-color:white;
+   padding-left:5%;
+   padding-top:2%;
+   padding-bottom:1%;
+ }
+
+.uswbandana{
+   box-sizing: border-box;
+   float:left;
+   display:inline;
+   width:100%;
+   height:70%;
+   color:white;
+   text-align:left;
+   padding:2%;
+ }
+
+ .usimg{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:40%;
+   margin-bottom:0;
+   margin-left:1%;
+}
+.usimgo{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:31%;
+   height:40%;
+   margin-bottom:0;
+   margin-left:3%;
+}
+.usimgm1{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:40%;
+   margin-bottom:0;
+   margin-left:2%;
+}
+
+.usimgm2{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:40%;
+   margin-bottom:0;
+   margin-left:1%; 
+   margin-top:2%
+}
+
+.usimgm3{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:40%;
+   margin-bottom:0;
+   margin-left:6%;
+   margin-top:2%
+}
+
+.usimgm4{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:40%;
+   margin-bottom:0;
+   margin-left:6%;
+   margin-top:2%;
+}
+ 
+
+
+
+.servpdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:95%;
+   background-color:#c0392b;
+   padding:2%;
+   overflow:auto;
+   display:none;
+}
+
+.proHeader{
+  width:100%;
+  height: 10%;
+  padding:1%;
+}
+
+.proImg{
+  height:90%;
+  width:100%;
+  float:left;
+  padding: .5% 2% .5% 2%;
+}
+
+.proText{
+  height:30%;
+  width:100%;
+  float:left;
+}
+
+.serret{
+  box-sizing:border-box;
+  display:inline-block;
+  float:right;
+  width:30%;
+  height: 20%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:.9em;
+  padding-top:2%;
+  border-radius: 5px;
+  margin-top:1%;
+  margin-left:1%;
+  text-align:center;
+}
+
+.servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2em;
+  display:inline-block;
+  float:left;
+  margin-right:32%;
+  display:none;
+  margin:none !important;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  display:inline-block;
+  float:left;
+  margin-right:5%;
+  margin-top:1.2%;
+  display:none !important;
+}
+
+.propo{
+   color:white;
+   font-size:.78em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:.78em;
+   display:none;
+}
+
+.proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:30%;
+  height:60%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:.8em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:2%;
+  text-align:center;
+  float:right;
+  margin-top:100px;
+  margin-bottom:10px;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:0%;
+  color:white;
+  font-size: .75em !important;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+ .buttonArea img{
+  display: none;
+ }
+
+ .servh2{
+ display:none !important;
+ }
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:90%;
+   background-color:grey;
+   display:none;
+}
+
+.listArea{
+  padding-top:3%;
+  width:100%;
+  height:80%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.servHeader{
+  width:100%;
+  height: 10%;
+  display:inline-block;
+  margin:0 auto;
+  padding:3%;
+  text-align:center;
+}
+
+.buttonArea{
+  width:100%;
+  height:10%;
+  display:inline-block;
+  float: left;
+  padding:0%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.sph{
+  display: table-cell;
+  vertical-align: middle;
+}
+.serbut{
+  text-align:center;
+  display: table;
+  box-sizing:border-box;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:grey;
+  margin-left:3.33%;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  color:white;
+  font-size: 2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.probut{
+  text-align:center;
+  display: table;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:#c0392b;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  margin-right:3.33%;
+  text-align:center;
+  color:white;
+  font-size:2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.box3{
+  box-sizing: border-box;
+  display:inline;
+  float:left;
+  height:95%;
+  width:100%;
+  position:relative;
+  margin-bottom: 35% !important;
+}
+  .medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:60% !important;
+   text-align:center;
+   background-color:grey;
+   margin-top:215% !important;
+ }
+
+ .medbp{
+  font-size:1em !important;
+  text-align: left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+}
+
+.medbhead{
+  box-sizing: border-box;
+  margin-top:2vw;
+  margin-left:2vw;
+  text-align:left;
+  font-size:1.8em !important;
+  display:inline;
+  float:left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  clear:right;
+  }
+
+ .imgthumbind{
+  font-family: 'Ruda', sans-serif;
+  font-size: 1.6em !important;
+  margin-top:4%;
+  color:black;
+}
+
+}
+
+@media (max-width: 299px) and (min-width: 260px){
+
+.medbandanawhite{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:32%;
+   background-color:white;
+   padding-left:5%;
+   padding-top:2%;
+   padding-bottom:1%;
+ }
+
+.uswbandana{
+   box-sizing: border-box;
+   float:left;
+   display:inline;
+   width:100%;
+   height:80%;
+   color:white;
+   text-align:left;
+   padding:2%;
+ }
+
+ .usimg{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:40%;
+   margin-bottom:0;
+   margin-left:1%;
+}
+.usimgo{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:31%;
+   height:40%;
+   margin-bottom:0;
+   margin-left:3%;
+}
+.usimgm1{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:40%;
+   margin-bottom:0;
+   margin-left:2%;
+}
+
+.usimgm2{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:40%;
+   margin-bottom:0;
+   margin-left:1%; 
+   margin-top:2%
+}
+
+.usimgm3{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:40%;
+   margin-bottom:0;
+   margin-left:6%;
+   margin-top:2%
+}
+
+.usimgm4{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:40%;
+   margin-bottom:0;
+   margin-left:6%;
+   margin-top:2%;
+}
+
+.servpdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:120%;
+   background-color:#c0392b;
+   padding:2%;
+   overflow:auto;
+   display:none;
+}
+
+.proHeader{
+  width:100%;
+  height: 10%;
+  padding:1%;
+}
+
+.proImg{
+  height:100%;
+  width:100%;
+  float:left;
+  padding: .5% 2% .5% 2%;
+}
+
+.proText{
+  height:30%;
+  width:100%;
+  float:left;
+}
+
+.serret{
+  box-sizing:border-box;
+  display:inline-block;
+  float:right;
+  width:30%;
+  height: 20%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:.8em;
+  padding-top:2%;
+  border-radius: 5px;
+  margin-top:1%;
+  margin-left:1%;
+  text-align:center;
+}
+
+.servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2em;
+  display:inline-block;
+  float:left;
+  margin-right:32%;
+  display:none;
+  margin:none !important;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  display:inline-block;
+  float:left;
+  margin-right:5%;
+  margin-top:1.2%;
+  display:none !important;
+}
+
+.propo{
+   color:white;
+   font-size:.78em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:.78em;
+   display:none;
+}
+
+.proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:35%;
+  height:60%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:.8em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:2%;
+  margin-top: 180px !important;
+  margin-bottom: 10px !important;
+  text-align:center;
+  float:right;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:0%;
+  color:white;
+  font-size: .80em !important;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+ .buttonArea img{
+  display: none;
+ }
+
+ .servh2{
+ display:none !important;
+ }
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:100%;
+   background-color:grey;
+   display:none;
+}
+
+.listArea{
+  padding-top:3%;
+  width:100%;
+  height:80%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.servHeader{
+  width:100%;
+  height: 10%;
+  display:inline-block;
+  margin:0 auto;
+  padding:3%;
+  text-align:center;
+}
+
+.buttonArea{
+  width:100%;
+  height:10%;
+  display:inline-block;
+  float: left;
+  padding:0%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.sph{
+  display: table-cell;
+  vertical-align: middle;
+}
+.serbut{
+  text-align:center;
+  display: table;
+  box-sizing:border-box;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:grey;
+  margin-left:3.33%;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  color:white;
+  font-size: 2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.probut{
+  text-align:center;
+  display: table;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:#c0392b;
+  margin-top:3.33%;
+  margin-bottom:3.33%;
+  margin-right:3.33%;
+  text-align:center;
+  color:white;
+  font-size:2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.box3{
+  box-sizing: border-box;
+  display:inline;
+  float:left;
+  height:95%;
+  width:100%;
+  position:relative;
+  margin-bottom: 50% !important;
+}
+  .medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:70% !important;
+   text-align:center;
+   background-color:grey;
+   margin-top:260% !important;
+ }
+
+ .medbp{
+  font-size:1em !important;
+  text-align: left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+}
+
+.medbhead{
+  box-sizing: border-box;
+  margin-top:2vw;
+  margin-left:2vw;
+  text-align:left;
+  font-size:1.5em !important;
+  display:inline;
+  float:left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  clear:right;
+  }
+
+ .imgthumbind{
+  font-family: 'Ruda', sans-serif;
+  font-size: 1.6em !important;
+  margin-top:4%;
+  color:black;
+}
+
+}
+
+@media (max-width: 259px) and (min-width: 200px){
+
+.medbandanawhite{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:40%;
+   background-color:white;
+   padding-left:5%;
+   padding-top:2%;
+   padding-bottom:1%;
+ }
+
+.uswbandana{
+   box-sizing: border-box;
+   float:left;
+   display:inline;
+   width:100%;
+   height:80%;
+   color:white;
+   text-align:left;
+   padding:2%;
+ }
+
+ .usimg{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:30%;
+   margin-bottom:0;
+   margin-left:1%;
+}
+.usimgo{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:31%;
+   height:30%;
+   margin-bottom:0;
+   margin-left:3%;
+}
+.usimgm1{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:30%;
+   margin-bottom:0;
+   margin-left:2%;
+}
+
+.usimgm2{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:30%;
+   margin-bottom:0;
+   margin-left:1%; 
+   margin-top:2%
+}
+
+.usimgm3{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:30%;
+   margin-bottom:0;
+   margin-left:6%;
+   margin-top:2%
+}
+
+.usimgm4{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:20%;
+   height:30%;
+   margin-bottom:0;
+   margin-left:6%;
+   margin-top:2%;
+}
+
+.servpdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:110%;
+   background-color:#c0392b;
+   padding:2%;
+   overflow:auto;
+   display:none;
+}
+
+.proHeader{
+  width:100%;
+  height: 10%;
+  padding:1%;
+}
+
+.proImg{
+  height:110%;
+  width:110%;
+  float:left;
+  padding: .5% 2% .5% 2%;
+}
+
+.proText{
+  height:30%;
+  width:100%;
+  float:left;
+}
+
+.serret{
+  box-sizing:border-box;
+  display:inline-block;
+  float:right;
+  width:40%;
+  height: 20%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:.8em;
+  padding-top:2%;
+  border-radius: 5px;
+  margin-top:1%;
+  margin-left:1%;
+  text-align:center;
+}
+
+.servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2em;
+  display:inline-block;
+  float:left;
+  margin-right:32%;
+  display:none;
+  margin:none !important;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  display:inline-block;
+  float:left;
+  margin-right:5%;
+  margin-top:1.2%;
+  display:none !important;
+}
+
+.propo{
+   color:white;
+   font-size:.7em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:.7em;
+   display:none;
+}
+
+
+.proret{
+  box-sizing:border-box;
+  display:inline-block;
+  width:50%;
+  height:60%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1em;
+  padding:1.1%;
+  border-radius: 5px;
+  margin-right:2%;
+  text-align:center;
+  float:right;
+  margin-top:500px !important;
+  margin-bottom:10px;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:0%;
+  color:white;
+  font-size: .85em !important;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+ .buttonArea img{
+  display: none;
+ }
+
+ .servh2{
+ display:none !important;
+ }
+
+.servsdn{
+  box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:90%;
+   background-color:grey;
+   display:none;
+}
+
+.listArea{
+  padding-top:3%;
+  width:100%;
+  height:80%;
+  display:inline-block;
+  float: left;
+  padding:2%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.servHeader{
+  width:100%;
+  height: 10%;
+  display:inline-block;
+  margin:0 auto;
+  padding:3%;
+  text-align:center;
+}
+
+.buttonArea{
+  width:100%;
+  height:10%;
+  display:inline-block;
+  float: left;
+  padding:0%;
+  text-align:left;
+  box-sizing:border-box;
+}
+
+.sph{
+  display: table-cell;
+  vertical-align: middle;
+}
+.serbut{
+  text-align:center;
+  display: table;
+  box-sizing:border-box;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:grey;
+  margin-left:3.33%;
+  margin-top:15%;
+  margin-bottom:3.33%;
+  color:white;
+  font-size: 2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.probut{
+  text-align:center;
+  display: table;
+  float:left;
+  width: 90%;
+  height: 70%;
+  background-color:#c0392b;
+  margin-top:15%;
+  margin-bottom:3.33%;
+  margin-right:3.33%;
+  text-align:center;
+  color:white;
+  font-size:2em;
+  font-family: 'Ruda', sans-serif;
+}
+
+.thumbholder{
+  box-sizing:border-box;
+  display:inline-block;
+  width:70%;
+  height:10%;
+  background-color:rgba(255,153,0,0.8);
+  margin:auto;
+}
+  .medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:50% !important;
+   text-align:center;
+   background-color:grey;
+   margin-top:215% !important;
+ }
+
+ .medbp{
+  font-size:.9em !important;
+  text-align: left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+}
+
+.medbhead{
+  box-sizing: border-box;
+  margin-top:2vw;
+  margin-left:2vw;
+  text-align:left;
+  font-size:1.5em !important;
+  display:inline;
+  float:left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  clear:right;
+  }
+
+ .box3{
+  box-sizing: border-box;
+  display:inline;
+  float:left;
+  height:100%;
+  width:100%;
+  position:relative;
+  margin-bottom: -5%;
+}
+
+.imgthumbtel{
+  font-family: 'Ruda', sans-serif;
+  font-size: 1em !important;
+  margin-top:4%;
+  color:black;
+}
+
+.imgthumbcon{
+  font-family: 'Ruda', sans-serif;
+  font-size: 1em !important;
+  margin-top:4%;
+  color:black;
+}
+
+.imgthumbind{
+  font-family: 'Ruda', sans-serif;
+  font-size: 1em !important;
+  margin-top:4%;
+  color:black;
+}
+
+.imgdescp{
+  text-align:left;
+  font-family: 'Ruda', sans-serif;
+  font-size: .8em;
+  color:black;
+  margin-top:5%;
+}
+
+}
+
 
 
 @media (max-width: 1800px) and (min-width: 1700px){
@@ -1543,25 +5471,494 @@ input[type=submit] {
 
 .imgthumbtel{
   font-family: 'Ruda', sans-serif;
-  font-size: 3.4em;
-  margin-top:1%;
+  font-size: 3.3em;
+  margin-top:2%;
   color:black;
 }
 }
 
 @media (max-width: 1700px) and (min-width: 1460px){
 
+.contactp{
+  font-family: 'Playfair Display', serif;
+  text-align:left;
+  color:black;
+  font-size:3em;
+  margin-top:2%;
+  width:80%;
+ }
+
+.serret{
+  display: inline-block;
+  margin: 5% auto;
+  width:30%;
+  height: 15%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.8em;
+  padding:20px;
+  border-radius: 25px;
+  text-align:center;
+}
+
+.servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2.5em;
+  display:inline-block;
+  float:left;
+  display:none;
+  margin:none !important;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.5em;
+  display:inline-block;
+  float:left;
+  display:none;
+  margin: 1.5% 0% 0% 4%
+}
+
+.propo{
+   color:white;
+   font-size:1.4em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:1.4em;
+   display:none;
+}
+
+.servh2{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.7em;
+  display:inline-block;
+  float:left;
+  margin-left:.5%;
+  display: table-cell;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:2%;
+  color:white;
+  font-size:1.5em;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+
+
 
 .imgthumbtel{
   font-family: 'Ruda', sans-serif;
-  font-size: 3em;
-  margin-top:1%;
+  font-size: 2.6em;
+  margin-top:5%;
   color:black;
+}
+
+.imgthumbcon{
+  font-family: 'Ruda', sans-serif;
+  font-size: 3.2em;
+  color:black;
+  margin-top:2%;
+}
+
+.imgthumbind{
+  font-family: 'Ruda', sans-serif;
+  font-size: 3.2em;
+  color:black;
+  margin-top:3%;
+}
+}
+
+@media (max-width: 1000px) and (min-width: 767px){
+  
+.medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:44% !important;
+   text-align:center;
+   background-color:grey;
+ }
+
+ .medbp{
+  font-size:1.6em !important;
+  text-align: left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+}
+
+
+.medbhead{
+  box-sizing: border-box;
+  margin-top:2vw;
+  margin-left:2vw;
+  text-align:left;
+  font-size:3em !important;
+  display:inline;
+  float:left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  clear:right;
+}
+}
+
+
+ @media (max-width: 1460px) and (min-width: 1110px){
+
+ .contactp{
+  font-family: 'Playfair Display', serif;
+  text-align:left;
+  color:black;
+  font-size:2.5em;
+  margin-top:2%;
+  width:80%;
+ }
+
+ .serret{
+  display: inline-block;
+  margin: 5% auto;
+  width:30%;
+  height: 15%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.4em;
+  padding:20px;
+  border-radius: 25px;
+  text-align:center;
+}
+
+
+ .servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2.5em;
+  display:inline-block;
+  float:left;
+  display:none;
+  margin:none !important;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.5em;
+  display:inline-block;
+  float:left;
+  display:none;
+  margin: 1.5% 0% 0% 4%
+}
+
+.propo{
+   color:white;
+   font-size:1.2em;
+   margin-top:1%;
+   display:none;
+}
+.prop{
+   color:white;
+   font-size:1.2em;
+   display:none;
+}
+ .proret{
+  text-align:center;
+  display: table;
+  box-sizing:border-box;
+  width:60%;
+  height:8%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.7em;
+  padding:1.1%;
+  border-radius: 25px;
+  margin:8% auto;
+  text-align:center;
+  padding:2.5%;
+}
+
+.servh2{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.7em;
+  display:inline-block;
+  float:left;
+  margin-left:.5%;
+  display: table-cell;
+  margin-top:0% !important;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:2%;
+  color:white;
+  font-size:1.4em;
+  font-family: 'Ruda', sans-serif;
+  display:none;
+}
+}
+
+@media (max-width: 1109px) and (min-width: 768px){
+
+.contactp{
+  font-family: 'Playfair Display', serif;
+  text-align:left;
+  color:black;
+  font-size:2.3em;
+  margin-top:2%;
+  width:80%;
+ }
+
+.serret{
+  display: inline-block;
+  margin: 5% auto;
+  width:30%;
+  height: 15%;
+  background-color:grey;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.3em;
+  border-radius: 25px;
+  text-align:center;
+  padding-top:10px !important;
+}
+
+
+ .servhp{
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:2.5em;
+  display:inline-block;
+  float:left;
+  display:none;
+}
+
+.servh2p{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.35em;
+  display:inline-block;
+  float:left;
+  display:none;
+  margin: 1.5% 0% 0% 4%
+}
+
+
+
+.prop{
+   color:white;
+   font-size:.96em;
+   display:none;
+}
+
+.propo{
+   color:white;
+   font-size:.96em;
+   display:none;
+}
+
+ .proret{
+  text-align:center;
+  display: table;
+  box-sizing:border-box;
+  width:60%;
+  height:8%;
+  background-color:#c0392b;
+  display:none;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.4em;
+  padding:1.1%;
+  border-radius: 25px;
+  margin:8% auto;
+  text-align:center;
+  padding:2.5%;
+}
+
+.servh2{
+  color:black;
+  font-family: 'Ruda', sans-serif;
+  font-size:1.3em;
+  display:inline-block;
+  float:left;
+  margin-left:.5%;
+  display: table-cell;
+  margin-top:0% !important;
+}
+
+.listse{
+  box-sizing:border-box;
+  display:inline-block;
+  float:left;
+  margin-top:2%;
+  color:white;
+  font-size:1.3em;
+  font-family: 'Ruda', sans-serif;
+  display:none;
 }
 }
 
 
 @media (max-width: 1460px) and (min-width: 767px){
+
+.usimg{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:11%;
+   height:80%;
+   margin-bottom:0;
+   margin-left:1%;
+}
+.usimgo{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:17%;
+   height:80%;
+   margin-bottom:0;
+   margin-left:.5%;
+}
+
+.usimgm1{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:11%;
+   height:80%;
+   margin-bottom:0;
+   margin-left:.5%;
+}
+
+.usimgm2{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:11%;
+   height:80%;
+   margin-bottom:0;
+   margin-left:.5%; 
+}
+
+.usimgm3{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:11%;
+   height:80%;
+   margin-bottom:0;
+   margin-left:.5%;
+}
+
+.usimgm4{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  display:inline;
+   width:11%;
+   height:80%;
+   margin-bottom:0;
+   margin-left:.5%;
+}
+
+.uswbandana{
+   box-sizing: border-box;
+   float:left;
+   display:inline;
+   width:100%;
+   height:70%;
+   color:white;
+   text-align:left;
+   padding:2%;
+ }
+
+ 
+
+.medbandana{
+   box-sizing: border-box;
+   position: relative;
+   float:left;
+   display:inline;
+   width:100%;
+   height:45%;
+   text-align:center;
+   background-color:grey;
+ }
+
+ .medbp{
+  font-size:1.8em;
+  text-align: left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+}
+
+ .medbbod{
+     box-sizing:border-box;
+     display:inline;
+     width:90%;
+     height:60%;
+     margin-left: 3vw;
+     margin-top: 3vw;
+     float:left;
+     clear:left;
+
+}
+
+ .medbhead{
+  box-sizing: border-box;
+  margin-top:2vw;
+  margin-left:2vw;
+  text-align:left;
+  font-size:4em;
+  display:inline;
+  float:left;
+  color:white;
+  font-family: 'Ruda', sans-serif;
+  clear:right;
+}
+
+.thumbholder{
+  box-sizing:border-box;
+  display:inline-block;
+  width:85%;
+  height:12%;
+  background-color:rgba(255,153,0,0.8);
+  margin:auto;
+}
+
+.bandana{
+   box-sizing: border-box;
+   float:left;
+   display:inline;
+   width:100%;
+   height:55%;
+   color:white;
+   text-align:center;
+ }
+
   .imgshome{
   box-sizing:border-box;
   display:inline-block;
@@ -1575,20 +5972,20 @@ input[type=submit] {
   font-family: 'Ruda', sans-serif;
   font-size: 2em;
   color:black;
-  margin-top:2%;
+  margin-top:4%;
 }
 
 .imgthumbind{
   font-family: 'Ruda', sans-serif;
   font-size: 2em;
   color:black;
-  margin-top:2%;
+  margin-top:4%;
 }
 
 .imgthumbtel{
   font-family: 'Ruda', sans-serif;
-  font-size: 1.8em;
-  margin-top:3%;
+  font-size: 1.5em;
+  margin-top:6%;
   color:black;
 }
 
